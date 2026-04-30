@@ -13,7 +13,7 @@ metadata:
   namespace: sample-app
 type: Opaque
 stringData:
-  S3_BUCKET_NAME: "${S3_BUCKET_NAME}"
+  S3_BUCKET_NAME: "sample-app-jk-dev-files-105588835975-lab"
 ---
 apiVersion: apps/v1
 kind: Deployment
