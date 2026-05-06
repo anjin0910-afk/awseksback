@@ -4,7 +4,7 @@ metadata:
   name: backend-sa
   namespace: sample-app
   annotations:
-    eks.amazonaws.com/role-arn: ${BACKEND_SA_ROLE_ARN}
+    eks.amazonaws.com/role-arn: arn:aws:iam::105588835975:role/sample-app-jk-backend-sa-role
 ---
 apiVersion: v1
 kind: Secret
